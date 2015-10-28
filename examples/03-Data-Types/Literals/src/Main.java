@@ -1,4 +1,3 @@
-
 public class Main {
 
 	public static void main(String[] args) {
@@ -34,7 +33,7 @@ public class Main {
 		  char symbolTwo = '\u0061';
 		  System.out.println(symbolTwo);
 		  
-		  String str = "Catt car!\n\n\n";
+		  String str = "Cat car!\n\n\n";
 		  System.out.print(str);
 
 	}

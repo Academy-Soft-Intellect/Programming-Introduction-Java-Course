@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-        Scanner test = new Scanner(System.in, "UTF-8");
+        Scanner test = new Scanner(System.in);
 
         System.out.println("Please enter a word: ");
         String word = test.nextLine();
