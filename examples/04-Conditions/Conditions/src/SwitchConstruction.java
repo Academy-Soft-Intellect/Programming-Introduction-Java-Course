@@ -36,23 +36,5 @@ public class SwitchConstruction {
                 break;
         }
         scanner.close();
-        
-        String str = "z";
-        switch (str) {
-        case "a":
-        case "b":
-        case "c":
-        {
-            System.out.println("A,B,C");
-            System.out.println("A,B,C");
-            break;
-        }
-        case "x":
-        case "y":
-        case "z":
-            System.out.println("X,Y,Z");
-            System.out.println("X,Y,Z");
-            break;
-        }
     }
 }

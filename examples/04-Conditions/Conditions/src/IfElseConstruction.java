@@ -4,7 +4,7 @@ public class IfElseConstruction {
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in,"UTF-8");
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Please enter an integer:");
         int numInt = input.nextInt();
