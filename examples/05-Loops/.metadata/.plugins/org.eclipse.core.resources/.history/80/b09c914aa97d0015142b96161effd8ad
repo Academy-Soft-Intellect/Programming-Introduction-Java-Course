@@ -5,6 +5,8 @@ public class ForLoopFactorial {
 		int n = 9;
 		long factorial = 1;
 		for (int i = 1; i <= n; i++) {
+			//fac = 720
+			//i = 7
 		    factorial = factorial * i;
 		}
 		

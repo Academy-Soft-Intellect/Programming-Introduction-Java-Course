@@ -1,0 +1,9 @@
+public class ForLoop {
+
+	public static void main(String[] args) {
+		
+		for (int number = 0; number < 15; number++) {
+		    System.out.print(number + " ");
+		}
+	}
+}
