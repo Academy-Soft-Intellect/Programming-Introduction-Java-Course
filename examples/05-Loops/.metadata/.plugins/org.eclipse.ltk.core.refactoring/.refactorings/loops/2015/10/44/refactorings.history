@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ForLoopFacturiel&apos; to &apos;ForLoopFactorial&apos;&#x0D;&#x0A;- Original project: &apos;loops&apos;&#x0D;&#x0A;- Original element: &apos;ForLoopFacturiel&apos;&#x0D;&#x0A;- Renamed element: &apos;ForLoopFactorial&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ForLoopFacturiel&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{ForLoopFacturiel.java[ForLoopFacturiel" matchStrategy="1" name="ForLoopFactorial" qualified="false" references="true" similarDeclarations="false" stamp="1445981588866" textual="false" version="1.0"/>
+</session>
