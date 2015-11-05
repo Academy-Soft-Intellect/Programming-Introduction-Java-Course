@@ -1,4 +1,4 @@
-public class DeepCopyDemo {
+public class Task1DeepCopyDemo {
 	
 	public static void main(String[] args) {
 	
