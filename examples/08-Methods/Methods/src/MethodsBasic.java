@@ -1,19 +1,25 @@
 public class MethodsBasic {
 
 	public static void main(String[] args) {
-		SayHello();
+		sayHello();
 		
 		System.out.println("I am printed from main");
 		
-		SayGoodBye();
+		sayGoodBye();
+		sayGoodBye();
+		sayGoodBye();
 	}
 	
-	public static void SayHello(){
+	public static void sayHello(){
 		System.out.println("Hello");
 	}
 	
-	public static void SayGoodBye(){
+	public static void sayGoodBye(){
 		System.out.println("Good Bye");
+	}
+	
+	public static void sayWelcome(){
+		System.out.println("Welcome");
 	}
 
 }

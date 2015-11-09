@@ -2,19 +2,21 @@ public class ReturnValue {
 
 	public static void main(String[] args) {
 	
-		float width = 5;
-		float height = 4;
+		float width = 5.0f;
+		float height = 4.0f;
 		
-		float area = calculateRectangleArea(width, height);
+		calculateRectangleArea(width, height);
+
 		
-		System.out.print("Width " + width + "  Height " + height + " = Area " + area);
-		System.out.println();
+		//System.out.print("Width " + width + " * Height " + height + " = Area " + area);
+		//System.out.println();
 
 	}
 	
-	public static float calculateRectangleArea(float width, float height){
+	public static void calculateRectangleArea(float width, float height){
 		float area = width * height;
-		return area;
+		System.out.println(area);
+
 	}
 
 }

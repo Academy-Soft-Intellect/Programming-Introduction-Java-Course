@@ -1,16 +1,17 @@
 public class VariableScope {
 
 	public static void main(String[] args) {
-
-		if(true){
-			String test = "Test";
-		}
-		//System.out.println(test);
-
-	}
-	public static void print(int[] args) {
 		
 		int d = 12;
+		int[] arr = {1,2,3};
+		int d111 = print(arr, d);
+		
+
+	}
+	
+	public static int print(int[] args, int d) {
+		
+		d = 15;
 		
 		for(int item : args){
 			int p = 5;
@@ -19,6 +20,7 @@ public class VariableScope {
 		//System.out.println(p);
 		
 		System.out.println(d);
+		return d;
 		
 	}
 }

@@ -7,14 +7,7 @@ public class MethodsParametersType {
 	    System.out.println("the number after is: " + number);
 	    
 	    System.out.println();
-	    
-	    Integer numberArg = 11;
-	    System.out.println("the number before is: " + numberArg);
-	    printNumberArg(numberArg);
-	    System.out.println("the number after is: " + numberArg);
-	    
-	    System.out.println();
-	    
+
 	    int[] arrayArg = {1,2,3};
 	    System.out.println("the array before is: " + arrayArg[0] + " " + arrayArg[1] + " " + arrayArg[2]);
 	    printArray(arrayArg);

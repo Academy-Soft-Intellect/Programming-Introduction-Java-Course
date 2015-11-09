@@ -1,0 +1,12 @@
+public class Tasks {
+	
+	public static void main(String[] arg){
+		int [] a = {122,44,22,33};
+	}
+	public static void reverseArray(int[] a){
+		for (int i = a.length - 1; i < a.length; i++) {
+			
+		}
+	}
+
+}

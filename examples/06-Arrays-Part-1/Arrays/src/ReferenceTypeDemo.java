@@ -4,8 +4,10 @@ public class ReferenceTypeDemo {
 	
 		int[] test = { 1, 2, 3, 4, 5 };		
 
+		String delimiter = " ! ";
 		for(int i = 0; i< test.length; i++){
-			System.out.print(test[i] + " ");
+			System.out.print(test[i] + delimiter);
+			System.out.println();
 		}
 		
 		System.out.println();
@@ -13,7 +15,8 @@ public class ReferenceTypeDemo {
 		int[] newTest = test;
 		
 		for(int i = 0; i< newTest.length; i++){
-			System.out.print(newTest[i] + " ");
+			System.out.print(newTest[i] + delimiter);
+			System.out.println();
 		}
 		
 		test[0] = 20;
@@ -21,13 +24,15 @@ public class ReferenceTypeDemo {
 		System.out.println();
 		
 		for(int i = 0; i< test.length; i++){
-			System.out.print(test[i] + " ");
+			System.out.print(test[i] + delimiter);
+			System.out.println();
 		}
 		
 		System.out.println();
 		
 		for(int i = 0; i< newTest.length; i++){
-			System.out.print(newTest[i] + " ");
+			System.out.print(newTest[i] + delimiter);
+			System.out.println();
 		}
 	}
 }

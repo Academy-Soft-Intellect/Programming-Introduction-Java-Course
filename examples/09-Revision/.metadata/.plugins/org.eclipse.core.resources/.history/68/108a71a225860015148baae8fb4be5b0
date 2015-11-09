@@ -1,0 +1,14 @@
+
+public class Task3 {
+	public static void main(String[] arg){
+		
+		int[] array = {2, 3, 5, 7, 13};
+		int max = Integer.MIN_VALUE;
+		int min = Integer.MAX_VALUE;
+		
+		
+		
+		
+
+	}
+}
