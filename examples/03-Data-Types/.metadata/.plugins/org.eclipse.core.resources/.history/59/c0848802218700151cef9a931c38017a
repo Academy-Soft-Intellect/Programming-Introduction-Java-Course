@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		//Example:
+		//Enter a word: Lazar
+		//Please enter N: 5
+
+		System.out.println("Enter a word:");
+		String text = input.nextLine();
+
+		System.out.println("Please enter N:");
+		int n = input.nextInt();
+		
+		if (n <= text.length()) {
+			char ch = text.charAt(n - 1);
+			System.out.println("The symbo of " + n + " position is: " + ch);
+		}
+		else{
+			System.out.println("N is larger than the length of enter word!");
+		}
+		
+		input.close();
+
+	}
+
+}

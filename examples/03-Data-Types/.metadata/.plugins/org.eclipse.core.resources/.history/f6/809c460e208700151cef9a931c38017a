@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		//Example:
+		//The first string: This is Java!
+		//The second string: Java
+
+		System.out.println("The first string:");
+		String text = input.nextLine();
+
+	}
+
+}
