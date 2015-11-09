@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task2 {
+public class Task02 {
 
 	public static void main(String[] args) {
 		int[][] matrix = new int[4][4];
@@ -35,6 +35,7 @@ public class Task2 {
 			System.out.println();
 			
 		}
+		input.close();
 
 	}
 
